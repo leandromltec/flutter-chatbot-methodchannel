@@ -32,9 +32,26 @@ class _HomeMethodCannelState extends State<HomeMethodCannel> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Container(
-      child: ElevatedButton(
-          onPressed: () {}, child: Text("Chamar Method Channel")),
-    ));
+      appBar: AppBar(
+        title: const Text('Teste Method Channel'),
+      ),
+      body: Center(
+        child: Container(
+          width: 300,
+          height: 50,
+          child: ElevatedButton(
+              onPressed: () {
+                print("foi");
+              },
+              style: ButtonStyle(
+                backgroundColor: WidgetStateProperty.all(Colors.blue),
+              ),
+              child: const Text(
+                "Chamar Method Channel",
+                style: TextStyle(color: Colors.white),
+              )),
+        ),
+      ),
+    );
   }
 }
