@@ -16,4 +16,4 @@ Abaixo segue prints com as implementações para facilitar entendimento e links 
 Configuração do Method Channel para Android Nativo:
 
 
-![Captura de Tela 2024-08-19 às 00 15 56](https://github.com/user-attachments/assets/ccc2dd6a-7203-4271-97d3-9412b6658f64)
+![Captura de Tela 2024-08-19 às 00 32 11](https://github.com/user-attachments/assets/0038d567-92ee-41d3-aa64-f4674dff6ad6)
