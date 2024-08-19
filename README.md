@@ -1,16 +1,15 @@
-# flutter_chatbot_methodchannel
+# Flutter MethodChannel ChatBot
 
-A new Flutter project.
+Este repositório demonstra conexão do Flutter com funções nativas do Android e IOS utilizando o MethodChannel.
 
-## Getting Started
+Atuei como desenvolvedor Flutter no app da ClaroPay onde realizei a conexão do ChatBot da empresa Blip junto ao app, utilizando MethodChannel.
 
-This project is a starting point for a Flutter application.
+O código fonte possui a implementação realizada para conexão. 
+O vídeo demonstra o Chatbot conectado ao app, porém este repositório é um novo projeto para facilitar o entendimento.
 
-A few resources to get you started if this is your first Flutter project:
+Abaixo segue prints com as implementações para facilitar entendimento e links da documentação seguida fornecida pela empresa Blipt, responssável Chatbot.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Configuração Android](https://help.blip.ai/hc/pt-br/articles/4474390487447-Como-adicionar-um-bot-em-um-aplicativo-Android-utilizando-o-BLiP-Chat)
+- [Configuração IOS](https://help.blip.ai/hc/pt-br/articles/4474399341975-Como-adicionar-um-bot-em-um-aplicativo-iOS-utilizando-o-BLiP-Chat)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
