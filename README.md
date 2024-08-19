@@ -13,3 +13,7 @@ Abaixo segue prints com as implementações para facilitar entendimento e links 
 - [Configuração IOS](https://help.blip.ai/hc/pt-br/articles/4474399341975-Como-adicionar-um-bot-em-um-aplicativo-iOS-utilizando-o-BLiP-Chat)
 
 
+Configuração do Method Channel para Android Nativo:
+
+
+![Captura de Tela 2024-08-19 às 00 15 56](https://github.com/user-attachments/assets/ccc2dd6a-7203-4271-97d3-9412b6658f64)
