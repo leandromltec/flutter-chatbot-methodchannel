@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,21 +34,24 @@ class _HomeMethodCannelState extends State<HomeMethodCannel> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Teste Method Channel'),
+        title: const Text('MethodChannel'),
       ),
       body: Center(
-        child: Container(
+        child: SizedBox(
           width: 300,
           height: 50,
           child: ElevatedButton(
-              onPressed: () {
-                print("foi");
+              onPressed: () async {
+                const methodChannel = MethodChannel('chatbot');
+                final String result =
+                    await methodChannel.invokeMethod('showChat');
+                debugPrint('Resultado: $result');
               },
               style: ButtonStyle(
                 backgroundColor: WidgetStateProperty.all(Colors.blue),
               ),
               child: const Text(
-                "Chamar Method Channel",
+                "Chamar MethodChannel Chatbot",
                 style: TextStyle(color: Colors.white),
               )),
         ),
