@@ -44,7 +44,7 @@ class _HomeMethodCannelState extends State<HomeMethodCannel> {
               onPressed: () async {
                 const methodChannel = MethodChannel('chatbot');
                 final String result =
-                    await methodChannel.invokeMethod('showChat');
+                    await methodChannel.invokeMethod('showChatbot');
                 debugPrint('Resultado: $result');
               },
               style: ButtonStyle(
